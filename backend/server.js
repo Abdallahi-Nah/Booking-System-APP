@@ -10,7 +10,7 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "booking-system-app-j3mb.vercel.app",
+      "https://booking-system-app-j3mb.vercel.app",
       "http://localhost:3000",
       "http://localhost:5173",
     ],
