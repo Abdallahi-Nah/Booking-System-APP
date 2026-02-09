@@ -98,13 +98,19 @@ const Register = () => {
               ))}
             </div>
             <p className="text-white/90 mb-4">
-              "Got my business set up in no time. Highly recommended!"
+              "Abdallahi Nah delivered a highly performant web application using the
+              MERN stack. His code quality and attention to detail are
+              exceptional!"
             </p>
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-white/20 rounded-full"></div>
+              <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">
+                <span className="text-lg font-bold">AN</span>
+              </div>
               <div>
-                <p className="font-semibold">Mike Anderson</p>
-                <p className="text-sm text-blue-200">Service Provider</p>
+                <p className="font-semibold">Abdallahi Nah</p>
+                <p className="text-sm text-blue-200">
+                  Full Stack Developer | MERN
+                </p>
               </div>
             </div>
           </div>
@@ -118,24 +124,6 @@ const Register = () => {
           </div>
 
           <div className="w-full max-w-md">
-            {/* Progress Steps */}
-            <div className="flex items-center justify-center gap-2 mb-8">
-              {[1, 2, 3].map((step, idx) => (
-                <div key={step} className="flex items-center">
-                  <div
-                    className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-semibold ${
-                      idx === 0
-                        ? "bg-blue-600 text-white"
-                        : "bg-gray-300 text-gray-600"
-                    }`}
-                  >
-                    {step}
-                  </div>
-                  {idx < 2 && <div className="w-12 h-1 bg-gray-300 mx-1"></div>}
-                </div>
-              ))}
-            </div>
-
             <h2 className="text-2xl font-bold text-gray-800 mb-6">
               {t("auth.createAccount")}
             </h2>
