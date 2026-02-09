@@ -10,7 +10,7 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "https://finance-tracker-6gsg.vercel.app",
+      "booking-system-app-j3mb.vercel.app",
       "http://localhost:3000",
       "http://localhost:5173",
     ],
